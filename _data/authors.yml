@@ -1,0 +1,10 @@
+beaver:
+  username: beaver
+  name: The Beit Beaver
+  url_full: http://beitbeaver.com
+  url: beitbeaver.com
+  bio: The editorial team at The Beit Beaver
+  picture: assets/images/beaver_face.png
+  facebook: beitbeaver
+  twitter: beitbeaver
+  cover: False

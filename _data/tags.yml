@@ -1,0 +1,15 @@
+college:
+  name: college
+  title: College
+  description: Fake news from the university
+  cover: assets/images/college.jpg
+outside-imperial:
+  name: outside-imperial
+  title: Outside Imperial
+  description: Fake news from outside the bubble
+  cover: assets/images/outside_imperial.jpg
+union:
+  name: union
+  title: Union
+  description: Fake news from the Union
+  cover: assets/images/union.jpg
