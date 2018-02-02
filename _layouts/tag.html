@@ -16,7 +16,9 @@ logo: 'assets/images/logo_black.png'
 {% include dynamic_tag_info.html %}
 <header class="site-header outer {% if cover or page.cover %}" style="background-image: url({{ site.baseurl }}{% if cover %}{{ cover }}{% else %}{{ page.cover }}{% endif%}) {% else %}no-cover{% endif %}">
     <div class="inner">
+      <div class="shadow">
         {% include site-nav.html %}
+      </div>
         <div class="site-header-content">
             <h1 class="site-title">{{ tag_title }}</h1>
             <h2 class="site-description">
