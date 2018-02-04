@@ -31,68 +31,6 @@ disqus_shortname: myjekyll # replace with disqus username
 # Google Analytics
 google_analytics: UA-113305143-1
 
-# Prose.io config
-prose:
-  rooturl: "_posts"
-  siteurl: "http://beitbeaver.com"
-  media: "assets/images/article-images"
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-        - name: "current"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "navigation"
-        field:
-          element: "hidden"
-          value: "True"
-      - name: "class"
-        field:
-          element: "hidden"
-          value: "post-template"
-      - name: "cover"
-        field:
-          element: "text"
-          label: "Cover image"
-          help: "The image which will be displayed at the top of the page"
-          value: "assets/images/article-images/breaking-news.png"
-          type: "text"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Article title"
-          help: "The article's title"
-          placeholder: "Beit Beaver wins journalism award"
-          type: "text"
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "The date and this article was written, in the format, YYYY-MM-DD HH:MM:SS"
-          placeholder: "2012-12-12 12:12:12"
-      - name: "tags"
-        field:
-          element: "select"
-          label: "Category"
-          help: "The category of the article"
-          options:
-            - name: "The Union"
-              value: "union"
-            - name: "Imperial College"
-              value: "college"
-            - name: "Outside of Imperial"
-              value: "outside-imperial"
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          help: "The tag of the author of this article. If you want to remain anonymous, leave it as beaver. You can add an author by editing _data/authors.yml using git."
-          value: "beaver"
-
 # Permalinks
 permalink: /:title
 # permalink: /author/:author
