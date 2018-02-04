@@ -9,7 +9,7 @@ prose:
         field:
           element: "hidden"
           value: "post"
-        - name: "current"
+      - name: "current"
         field:
           element: "hidden"
           value: "post"
