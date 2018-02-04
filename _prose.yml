@@ -4,7 +4,7 @@ prose:
   siteurl: "http://beitbeaver.com"
   media: "assets/images/article-images"
   metadata:
-    _posts:
+    .:
       - name: "layout"
         element: "hidden"
         value: "post"
