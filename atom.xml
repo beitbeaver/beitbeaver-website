@@ -17,12 +17,11 @@ layout: null
         {% else %}
           <description>{{ post.content | xml_escape }}</description>
         {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <pubDate>{{ post.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}</pubDate>
         <content:encoded>{{ post.content | xml_escape }}</content:encoded>
         <link>
         {{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <author>{{post.author}}</author>
       </item>
       {% endunless %}
     {% endfor %}
