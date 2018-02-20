@@ -23,6 +23,7 @@ navigation: True # show the navbar links
 subscribers: False
 twitter: beitbeaver
 facebook: beitbeaver
+facebook_page_id: 216929468810204
 
 # Disqus
 disqus: False
