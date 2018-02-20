@@ -7,7 +7,7 @@ layout: null
     <title>{{ site.title | xml_escape }} - Articles</title>
     <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
     <link>
-    {{ site.url }}</link>
+    {{ site.production_url }}</link>
     {% for post in site.posts %}
       {% unless post.link %}
       <item>
@@ -20,8 +20,8 @@ layout: null
         <pubDate>{{ post.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}</pubDate>
         <content:encoded>{{ post.content | xml_escape }}</content:encoded>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        {{ site.production_url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.production_url }}{{ post.url }}</guid>
       </item>
       {% endunless %}
     {% endfor %}
