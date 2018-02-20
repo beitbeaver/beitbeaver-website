@@ -9,7 +9,7 @@ tags: outside-imperial
 class: post-template
 subclass: 'post tag-outside-imperial'
 author: beaver
-excerpt: "Find out your height in radians with our simple calculator. Enter your height below!"
+excerpt: "Find out your height in radians with our simple calculator."
 ---
 
 Find out your height in radians with our simple calculator. Enter your height below!
