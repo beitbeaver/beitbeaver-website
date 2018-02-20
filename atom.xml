@@ -18,7 +18,14 @@ layout: null
           <description>{{ post.content | xml_escape }}</description>
         {% endif %}
         <pubDate>{{ post.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}</pubDate>
-        <content:encoded>{{ post.content | xml_escape }}</content:encoded>
+        <content:encoded>
+          {{ "<!doctype html><html><head></head><body><article>" | xml_escape }}
+          {{ "<header>" | xml_escape }} post.title {{ "</header>" | xml_escape }}
+          {{ post.content | xml_escape }}
+          {{ "<footer>" | xml_escape }}
+          Copyright © {{  site.time | date: '%Y' }} The Beit Beaver. All article content belongs to the person who wrote it. Don't be a dick.
+          {{ "</footer></article></body></html>" | xml_escape }}
+        </content:encoded>
         <link>
         {{ site.production_url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.production_url }}{{ post.url }}</guid>
