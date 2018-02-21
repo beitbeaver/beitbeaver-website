@@ -19,8 +19,18 @@ layout: null
         {% endif %}
         <pubDate>{{ post.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}</pubDate>
         <content:encoded>
-          {{ "<!doctype html><html><head></head><body><article>" | xml_escape }}
-          {{ "<header>" | xml_escape }} post.title {{ "</header>" | xml_escape }}
+          {{ "<!doctype html><html" | xml_escape }} lang="en" prefix="op: http://media.facebook.com/op#"{{ "><head>" | xml_escape }}
+          {{ "<link rel=" | xml_escape }}"canonical" href="{{ site.production_url }}{{ post.url }}"{{ ">" | xml_escape }}
+          {{ "<" | xml_escape }}base href="{{site.production_url}}/" target="_blank"{{ ">" | xml_escape }}
+          {{ "<" | xml_escape }}meta property="op:markup_version" content="v1.0"{{ ">" | xml_escape }}
+          {{ "</head>" | xml_escape }}
+          {{ "<body><article><header><h1>" | xml_escape }} {{post.title}} {{ "</h1>" | xml_escape }}
+          {{ "<" | xml_escape }}time class="op-published" datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}"{{ ">" | xml_escape }}
+          {{ page.date | date:'%e %B %Y' }}{{ "</time>" | xml_escape }}
+          {{ "<" | xml_escape }}time class="op-modified" datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}"{{ ">" | xml_escape }}
+          {{ page.date | date:'%e %B %Y' }}{{ "</time>" | xml_escape }}
+          {{ "<figure><" | xml_escape }}img src="{{post.cover}}" /{{ "></figure>" | xml_escape }}
+          {{ "</header>" | xml_escape }}
           {{ post.content | xml_escape }}
           {{ "<footer>" | xml_escape }}
           Copyright © {{  site.time | date: '%Y' }} The Beit Beaver. All article content belongs to the person who wrote it. Don't be a dick.
