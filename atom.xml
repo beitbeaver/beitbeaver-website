@@ -30,6 +30,9 @@ layout: null
           {{ "<" | xml_escape }}time class="op-modified" datetime="{{ post.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}"{{ ">" | xml_escape }}
           {{ page.date | date:'%e %B %Y' }}{{ "</time>" | xml_escape }}
           {{ "<figure><" | xml_escape }}img src="{{post.cover}}" /{{ "></figure>" | xml_escape }}
+          {{ "<" | xml_escape }}h3 class="op-kicker"{{ ">" | xml_escape }}
+          {{post.tags}}
+          {{ "</h3>" | xml_escape }}
           {{ "</header>" | xml_escape }}
           {{ post.content | xml_escape }}
           {{ "<footer>" | xml_escape }}
