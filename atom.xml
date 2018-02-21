@@ -35,9 +35,11 @@ layout: null
           {{ "</h3>" | xml_escape }}
           {{ "</header>" | xml_escape }}
           {{ post.content | xml_escape }}
-          {{ "<footer>" | xml_escape }}
-          Copyright © {{  site.time | date: '%Y' }} The Beit Beaver. All article content belongs to the person who wrote it. Don't be a dick.
-          {{ "</footer></article></body></html>" | xml_escape }}
+          {{ "<footer><small>" | xml_escape }}
+          Copyright © {{  site.time | date: '%Y' }} The Beit Beaver.{{ "</small>" | xml_escape }}
+          {{ "<aside>" | xml_escape }}
+          All article content belongs to the person who wrote it. Don't be a dick.
+          {{ "</aside></footer></article></body></html>" | xml_escape }}
         </content:encoded>
         <link>
         {{ site.production_url }}{{ post.url }}</link>
