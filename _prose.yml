@@ -16,7 +16,7 @@ prose:
       - name: "navigation"
         field:
           element: "hidden"
-          value: "True"
+          value: True
       - name: "class"
         field:
           element: "hidden"
