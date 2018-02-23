@@ -3,7 +3,7 @@ class: post-template
 navigation: 'True'
 current: post
 layout: post
-cover: assets/images/article-images/faculty-building.png
+cover: assets/images/article-images/faculty-building.jpg
 tags: college
 author: beaver
 published: true
