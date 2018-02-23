@@ -10,6 +10,7 @@ class: post-template
 subclass: 'post tag-outside-imperial'
 author: beaver
 excerpt: "Find out your height in radians with our simple calculator."
+no-rss: True
 ---
 
 Find out your height in radians with our simple calculator. Enter your height below!

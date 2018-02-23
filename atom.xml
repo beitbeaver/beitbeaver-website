@@ -9,7 +9,7 @@ layout: null
     <link>
     {{ site.production_url }}</link>
     {% for post in site.posts %}
-      {% unless post.link %}
+      {% unless post.link %}{% unless post.no-rss %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         {% if post.excerpt %}
@@ -45,7 +45,7 @@ layout: null
         {{ site.production_url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.production_url }}{{ post.url }}</guid>
       </item>
-      {% endunless %}
+      {% endunless %}{% endunless %}
     {% endfor %}
   </channel>
 </rss>

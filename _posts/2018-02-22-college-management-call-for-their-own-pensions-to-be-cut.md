@@ -1,16 +1,16 @@
 ---
 class: post-template
-navigation: 'True'
+navigation: True
 current: post
 layout: post
 cover: assets/images/article-images/faculty-building.jpg
 tags: college
 author: beaver
-published: true
 title: College management call for their own pensions to be cut
 date: '2018-02-23 01:00:00'
 ---
-A leaked memo seen by the Beit Beaver has revealed that some of College’s most senior managerial staff have demanded cuts to their own pensions. 
+
+A leaked memo seen by the Beit Beaver has revealed that some of College’s most senior managerial staff have demanded cuts to their own pensions.
 
 In emails between several members of the upper echelons of Imperial College London’s leadership, staff expressed a strong desire to reduce the income they are set to receive in retirement. A spokesperson for Imperial College confirmed that the leaked emails were in fact genuine, and said, “the general sentiment of our senior management staff is very much that they would like to see their pensions reduced.”
 
