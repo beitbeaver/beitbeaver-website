@@ -1921,3 +1921,9 @@ Usage (In Ghost editor):
 .shadow {
   text-shadow: 0px 0px 3px black;
 }
+
+/*------- ADS ---------*/
+.site-footer-ad {
+  text-align: center;
+  padding-top: 20px;
+}
