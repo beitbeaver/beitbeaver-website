@@ -4,7 +4,7 @@ navigation: True
 current: post
 layout: post
 cover: assets/images/article-images/bolt.png
-tags: college
+tags: union
 author: beaver
 title: Grammarly turns down CGCU Bolt magazine sponsorship deal
 date: '2018-02-26 00:00:00'
