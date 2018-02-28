@@ -2,9 +2,12 @@
 
 The website of The Beit Beaver, built using Jekyll on top of Ghost's default theme, [Casper](https://github.com/tryghost/casper).
 
+## Pre-requisites
+- Ruby
+- A brain
 
 ## Getting Started
-
+- Install Rubygems: `bundle install`
 - Build the static website into `_site/`: `make`
 - Run the site on a local server: `make serve`
 
