@@ -21,4 +21,4 @@ No. If you want something to look good on your CV, we’d advise getting a prope
 
 > I’m interested!
 
-Email **editor@beitbeaver.com**, tell us what you want to do and we’ll get back to you.
+Email **beitbeaver@gmail.com**, tell us what you want to do and we’ll get back to you.
