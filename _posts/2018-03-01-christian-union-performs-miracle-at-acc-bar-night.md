@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/article-images/apple-squash.jpg
+cover: assets/images/article-images/snow-acc.jpg
 navigation: True
 title: Christian Union performs miracle at ACC Bar Night
 date: 2018-03-01 00:00:00
@@ -11,7 +11,7 @@ subclass: 'post tag-union'
 author: beaver
 ---
 
-In dramatic scenes at last night's CSP Wednesday at the Union, members of the Christian Union performed what many described as a "supernatural miracle" as they appeared to transform several kegs of Bud Light into Stella.
+In dramatic scenes at last night's snowy CSP Wednesday at the Union, members of the Christian Union performed what many described as a "supernatural miracle" as they appeared to transform several kegs of Bud Light into Stella.
 
 At around 10pm, just half an hour after the door charge began, panic ensued among bar staff as supplies of the popular lager, Stella 4, ran out. Managers were forced to suggest Bud Light, a controversial diluted hops-flavoured product, as an alternative, to disgruntled attendees.
 
