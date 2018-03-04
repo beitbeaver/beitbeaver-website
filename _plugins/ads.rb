@@ -182,13 +182,13 @@ def inject_post_square_ads()
 end # call_ls
 
 Jekyll::Hooks.register :site, :after_init do |site|
-  inject_post_square_ads()
+  #inject_post_square_ads()
 end
 
 Jekyll::Hooks.register :site, :post_write do |site|
-  Dir.foreach("_posts") do |post_file_name|
-    if /.md/.match post_file_name
-      unprocess_file("_posts/#{post_file_name}")
-    end # if
-  end
+  # Dir.foreach("_posts") do |post_file_name|
+  #   if /.md/.match post_file_name
+  #     unprocess_file("_posts/#{post_file_name}")
+  #   end # if
+  # end
 end
