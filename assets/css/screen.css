@@ -766,10 +766,11 @@ Usage (In Ghost editor):
 <small>Your image caption</small>
 
 */
-.post-full-content img + br + small {
+.post-full-content img + small {
     display: block;
-    margin-top: -3em;
+    margin-top: -1.5em;
     margin-bottom: 1.5em;
+    text-align: center;
 }
 
 
