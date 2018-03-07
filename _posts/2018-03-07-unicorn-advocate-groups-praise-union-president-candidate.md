@@ -6,7 +6,7 @@ navigation: True
 title: "Unicorn advocate groups praise Union President candidate"
 date: 2018-03-07 21:45:00
 tags: union
-class: post-union
+class: post-template
 subclass: 'post tag-union'
 author: beaver
 ---
