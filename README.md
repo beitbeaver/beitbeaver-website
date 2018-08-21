@@ -5,6 +5,7 @@ The website of The Beit Beaver, built using Jekyll on top of Ghost's default the
 ## Pre-requisites
 - Ruby
 - A brain
+- Linux or Mac OSX (can't be bothered to support Windows development)
 
 ## Getting Started
 - Install Rubygems: `bundle install`
