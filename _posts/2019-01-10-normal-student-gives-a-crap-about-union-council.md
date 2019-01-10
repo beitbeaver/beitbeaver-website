@@ -13,7 +13,7 @@ author: beaver
 
 A normal, regular, undergraduate student has deliberately given a thought about Union Council, according to reports.
 
-Joe Connolly, a third year Biochemistry student from North London, spent just over fifteen seconds pondering about the role, actions and importance of the Union Council, as well as how he could get involved with thier important work. Connolly has never run for or held a committee position in any student club or society at Imperial, but has been active in a few since he started his degree.
+Joe Connolly, a third year Biochemistry student from North London, spent just over fifteen seconds pondering about the role, actions and importance of the Union Council, as well as how he could get involved with thier important work. Connolly has never run for or held a committee position in any student club or society at Imperial, but has been active in a few since he started his degree. He also consumes on average one portion of the Union's curly fries every week.
 
 The Union has made multiple attempts to make students care about Union Council, a powerful committee of directly and indirectly elected students. The strategy, including emails and social media posts, seems to be working - a non-negative number of students who are not on Council has attended every single meeting this academic year, mamy of them after seeing this publicity material.
 
